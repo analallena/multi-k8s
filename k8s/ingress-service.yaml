@@ -33,4 +33,3 @@ spec:
                 name: server-cluster-ip-service
                 port:
                   number: 5000
-                  
