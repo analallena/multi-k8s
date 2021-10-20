@@ -23,5 +23,6 @@ script:
 deploy:
   provider: script
   script: bash ./deploy.sh
+  github_token: $GITHUB_TOKEN
   on:
     branch: master
